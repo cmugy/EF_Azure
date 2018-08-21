@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  collins.cloud.app:
+    image: collinscloudapp
+    build:
+      context: .\Collins.Cloud.App
+      dockerfile: Dockerfile
